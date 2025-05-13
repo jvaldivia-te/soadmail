@@ -1,0 +1,14 @@
+[database]
+path=/Users/jose/Mail/hoover
+
+[user]
+name=José Valdivia
+jose@valdivia.com
+
+[new]
+tags=new;
+ignore=
+
+[maildir]
+synchronize_flags=true
+

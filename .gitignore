@@ -1,1 +1,30 @@
-secrets.lua
+# Ignora correos descargados
+Mail/
+~/Mail/
+Maildir/
+*.maildir
+
+# Archivos sensibles (respaldos o versiones temporales)
+*~
+*.bak
+*.swp
+*.swo
+
+# Archivos locales de contraseñas o configuraciones privadas
+secrets/
+passwords.*
+.env
+*.key
+*.pem
+
+# Indexado local de notmuch (innecesario para compartir)
+.notmuch
+.notmuch-xapian
+
+# Archivos generados por imapfilter/mbsync si los hubiera
+*.log
+*.cache
+
+# Archivos específicos de macOS
+.DS_Store
+

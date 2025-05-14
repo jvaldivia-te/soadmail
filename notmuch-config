@@ -1,12 +1,12 @@
 [database]
-path=/Users/jose/Mail/hoover
+path=/Users/jose/Mail
 
 [user]
-name=José Valdivia
-jose@valdivia.com
+name=Jose Valdivia
+primary_email=jose@valdivia.com
 
 [new]
-tags=new;
+tags=inbox;unread;
 ignore=
 
 [maildir]

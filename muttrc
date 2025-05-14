@@ -1,0 +1,34 @@
+# ~/.muttrc symlinked from ~/jose/soadmail/muttrc
+
+# Carpeta base (Maildir de mbsync)
+set folder=~/Mail/hoover
+
+# Carpeta de la bandeja de entrada
+set spoolfile=+INBOX
+
+# Formato del buzón
+set mbox_type=Maildir
+
+# Otras carpetas comunes
+set record=+Sent
+set postponed=+Drafts
+set trash=+Trash
+
+# Cache
+set header_cache=~/.cache/mutt/headers
+set message_cachedir=~/.cache/mutt/bodies
+set certificate_file=~/.cache/mutt/certificates
+
+# Interfaz
+set sort=reverse-date
+set sort_aux=date
+set pager_index_lines=10
+set markers=no
+set fast_reply=yes
+
+# Codificación
+set charset="utf-8"
+
+# Opcional: integrarlo con notmuch si lo deseas más adelante
+# set nm_default_url="notmuch://"
+

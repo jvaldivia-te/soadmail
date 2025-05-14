@@ -18,4 +18,5 @@ Near :hoover-local:
 Patterns *
 Create Near
 SyncState *
-
+Expunge None
+Sync Pull

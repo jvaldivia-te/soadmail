@@ -12,7 +12,7 @@ end
 account = IMAP {
     server = 'mail.realnames.com',
     username = 'jose@valdivia.com',
-    password = get_password('tu_usuario@tudominio.com', 'hoover'),
+    password = get_password('jose@valdivia.com', 'hoover'),
     ssl = 'tls1'
 }
 

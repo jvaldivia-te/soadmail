@@ -1,8 +1,8 @@
 IMAPAccount hoover
 Host mail.realnames.com
-User tu_usuario@tudominio.com
+User jose@valdivia.com
 PassCmd "security find-generic-password -a jose@valdivia.com -s hoover -w"
-SSLType IMAPS
+TLSType IMAPS
 
 IMAPStore hoover-remote
 Account hoover
@@ -12,10 +12,10 @@ Path ~/Mail/hoover/
 Inbox ~/Mail/hoover/INBOX
 SubFolders Verbatim
 
-Channel hoover-inbox
-Master :hoover-remote:
-Slave :hoover-local:
+Channel hoover
+Far :hoover-remote:
+Near :hoover-local:
 Patterns *
-Create Slave
+Create Near
 SyncState *
 

@@ -2,7 +2,8 @@
 
 set -e
 
-REPO="$HOME/jose/soadmail"
+HOME="/Users/valdivia"
+REPO="$HOME/personal/soadmail"
 MAILDIR="$HOME/Mail/hoover"
 EMAIL="jose@valdivia.com"
 SERVICE="hoover"
